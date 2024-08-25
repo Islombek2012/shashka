@@ -1,0 +1,45 @@
+.board {
+      width: 320px;
+      height: 320px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .cell {
+      width: 40px;
+      height: 40px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      position: relative;
+  }
+  
+  .cell.black {
+      background-color: black;
+  }
+  
+  .cell.white {
+      background-color: white;
+  }
+  
+  .selected {
+      border: 2px solid yellow;
+  }
+  
+  .piece {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .white {
+      background-color: white;
+  }
+  
+  .black {
+      background-color: black;
+  }
+  
